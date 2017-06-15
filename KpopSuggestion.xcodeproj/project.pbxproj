@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08905BF5AE9C297F3422B975 /* Pods_KpopSuggestion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086503961D1EE9080DBDFC87 /* Pods_KpopSuggestion.framework */; };
+		5683D09FF704A5B7E740F39F /* Pods_KpopSuggestionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750A75C46A045BE3CB4E65F1 /* Pods_KpopSuggestionUITests.framework */; };
+		59EB1F9E1EF23CD90093AC59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59EB1F9D1EF23CD90093AC59 /* GoogleService-Info.plist */; };
+		59EB1FA01EF23EC00093AC59 /* AddSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EB1F9F1EF23EC00093AC59 /* AddSongController.swift */; };
 		59EF43601EF1CA7A00B633C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF435F1EF1CA7A00B633C8 /* AppDelegate.swift */; };
 		59EF43621EF1CA7A00B633C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF43611EF1CA7A00B633C8 /* ViewController.swift */; };
 		59EF43651EF1CA7A00B633C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EF43631EF1CA7A00B633C8 /* Main.storyboard */; };
@@ -14,6 +18,11 @@
 		59EF436A1EF1CA7A00B633C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EF43681EF1CA7A00B633C8 /* LaunchScreen.storyboard */; };
 		59EF43751EF1CA7A00B633C8 /* KpopSuggestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF43741EF1CA7A00B633C8 /* KpopSuggestionTests.swift */; };
 		59EF43801EF1CA7A00B633C8 /* KpopSuggestionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF437F1EF1CA7A00B633C8 /* KpopSuggestionUITests.swift */; };
+		59EF438E1EF1CE1E00B633C8 /* Song TableviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF438D1EF1CE1E00B633C8 /* Song TableviewController.swift */; };
+		59EF43901EF1CEC000B633C8 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF438F1EF1CEC000B633C8 /* Song.swift */; };
+		59EF43941EF1D1BB00B633C8 /* SongTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF43931EF1D1BB00B633C8 /* SongTableCell.swift */; };
+		59EF43961EF1D3B400B633C8 /* kiss_me_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59EF43951EF1D3B400B633C8 /* kiss_me_image.jpg */; };
+		AF91E5DF0570A9FAF4812EEA /* Pods_KpopSuggestionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B551D61451D78B69AF67AF20 /* Pods_KpopSuggestionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		086503961D1EE9080DBDFC87 /* Pods_KpopSuggestion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KpopSuggestion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3726A9CC655DDFBD73F6F088 /* Pods-KpopSuggestionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopSuggestionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KpopSuggestionTests/Pods-KpopSuggestionTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C9A9EBDE57BD93499C94DBF /* Pods-KpopSuggestion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopSuggestion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KpopSuggestion/Pods-KpopSuggestion.debug.xcconfig"; sourceTree = "<group>"; };
+		59EB1F9D1EF23CD90093AC59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59EB1F9F1EF23EC00093AC59 /* AddSongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSongController.swift; sourceTree = "<group>"; };
 		59EF435C1EF1CA7A00B633C8 /* KpopSuggestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KpopSuggestion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EF435F1EF1CA7A00B633C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59EF43611EF1CA7A00B633C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,16 @@
 		59EF437B1EF1CA7A00B633C8 /* KpopSuggestionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KpopSuggestionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EF437F1EF1CA7A00B633C8 /* KpopSuggestionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpopSuggestionUITests.swift; sourceTree = "<group>"; };
 		59EF43811EF1CA7A00B633C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59EF438D1EF1CE1E00B633C8 /* Song TableviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Song TableviewController.swift"; sourceTree = "<group>"; };
+		59EF438F1EF1CEC000B633C8 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		59EF43931EF1D1BB00B633C8 /* SongTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableCell.swift; sourceTree = "<group>"; };
+		59EF43951EF1D3B400B633C8 /* kiss_me_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kiss_me_image.jpg; path = ../../../Downloads/kiss_me_image.jpg; sourceTree = "<group>"; };
+		6EDC856780C070B9AF857FA3 /* Pods-KpopSuggestionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopSuggestionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KpopSuggestionUITests/Pods-KpopSuggestionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		750A75C46A045BE3CB4E65F1 /* Pods_KpopSuggestionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KpopSuggestionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85A88F1C94CAE6FCE8F76B8 /* Pods-KpopSuggestionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopSuggestionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KpopSuggestionTests/Pods-KpopSuggestionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4497783C07F42B50964F1A5 /* Pods-KpopSuggestionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopSuggestionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KpopSuggestionUITests/Pods-KpopSuggestionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B551D61451D78B69AF67AF20 /* Pods_KpopSuggestionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KpopSuggestionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E280756F6FD649257A2D151B /* Pods-KpopSuggestion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopSuggestion.release.xcconfig"; path = "Pods/Target Support Files/Pods-KpopSuggestion/Pods-KpopSuggestion.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08905BF5AE9C297F3422B975 /* Pods_KpopSuggestion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF91E5DF0570A9FAF4812EEA /* Pods_KpopSuggestionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5683D09FF704A5B7E740F39F /* Pods_KpopSuggestionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				59EF43731EF1CA7A00B633C8 /* KpopSuggestionTests */,
 				59EF437E1EF1CA7A00B633C8 /* KpopSuggestionUITests */,
 				59EF435D1EF1CA7A00B633C8 /* Products */,
+				9B4E27A0EE3CE1F5F406CB8F /* Pods */,
+				8ED6B702A002893420AAD553 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +126,18 @@
 		59EF435E1EF1CA7A00B633C8 /* KpopSuggestion */ = {
 			isa = PBXGroup;
 			children = (
+				59EF43951EF1D3B400B633C8 /* kiss_me_image.jpg */,
 				59EF435F1EF1CA7A00B633C8 /* AppDelegate.swift */,
 				59EF43611EF1CA7A00B633C8 /* ViewController.swift */,
 				59EF43631EF1CA7A00B633C8 /* Main.storyboard */,
 				59EF43661EF1CA7A00B633C8 /* Assets.xcassets */,
 				59EF43681EF1CA7A00B633C8 /* LaunchScreen.storyboard */,
 				59EF436B1EF1CA7A00B633C8 /* Info.plist */,
+				59EF438D1EF1CE1E00B633C8 /* Song TableviewController.swift */,
+				59EF438F1EF1CEC000B633C8 /* Song.swift */,
+				59EB1F9D1EF23CD90093AC59 /* GoogleService-Info.plist */,
+				59EF43931EF1D1BB00B633C8 /* SongTableCell.swift */,
+				59EB1F9F1EF23EC00093AC59 /* AddSongController.swift */,
 			);
 			path = KpopSuggestion;
 			sourceTree = "<group>";
@@ -125,6 +160,29 @@
 			path = KpopSuggestionUITests;
 			sourceTree = "<group>";
 		};
+		8ED6B702A002893420AAD553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				086503961D1EE9080DBDFC87 /* Pods_KpopSuggestion.framework */,
+				B551D61451D78B69AF67AF20 /* Pods_KpopSuggestionTests.framework */,
+				750A75C46A045BE3CB4E65F1 /* Pods_KpopSuggestionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B4E27A0EE3CE1F5F406CB8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C9A9EBDE57BD93499C94DBF /* Pods-KpopSuggestion.debug.xcconfig */,
+				E280756F6FD649257A2D151B /* Pods-KpopSuggestion.release.xcconfig */,
+				A85A88F1C94CAE6FCE8F76B8 /* Pods-KpopSuggestionTests.debug.xcconfig */,
+				3726A9CC655DDFBD73F6F088 /* Pods-KpopSuggestionTests.release.xcconfig */,
+				B4497783C07F42B50964F1A5 /* Pods-KpopSuggestionUITests.debug.xcconfig */,
+				6EDC856780C070B9AF857FA3 /* Pods-KpopSuggestionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59EF43841EF1CA7A00B633C8 /* Build configuration list for PBXNativeTarget "KpopSuggestion" */;
 			buildPhases = (
+				D68BD46DC8403D8F09D4AB0D /* [CP] Check Pods Manifest.lock */,
 				59EF43581EF1CA7A00B633C8 /* Sources */,
 				59EF43591EF1CA7A00B633C8 /* Frameworks */,
 				59EF435A1EF1CA7A00B633C8 /* Resources */,
+				E7CE309A0416C3C73109CCE1 /* [CP] Embed Pods Frameworks */,
+				036AAFF3F76CB5FB9F877BB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59EF43871EF1CA7A00B633C8 /* Build configuration list for PBXNativeTarget "KpopSuggestionTests" */;
 			buildPhases = (
+				5B31F42ED8AB25098D224E8B /* [CP] Check Pods Manifest.lock */,
 				59EF436C1EF1CA7A00B633C8 /* Sources */,
 				59EF436D1EF1CA7A00B633C8 /* Frameworks */,
 				59EF436E1EF1CA7A00B633C8 /* Resources */,
+				9A20C942B274406C01312FF9 /* [CP] Embed Pods Frameworks */,
+				874F3795BB772F156A828AC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59EF438A1EF1CA7A00B633C8 /* Build configuration list for PBXNativeTarget "KpopSuggestionUITests" */;
 			buildPhases = (
+				A234CDB34C9B3FC5F660BAA1 /* [CP] Check Pods Manifest.lock */,
 				59EF43771EF1CA7A00B633C8 /* Sources */,
 				59EF43781EF1CA7A00B633C8 /* Frameworks */,
 				59EF43791EF1CA7A00B633C8 /* Resources */,
+				87C9160C54F5E306A0B325ED /* [CP] Embed Pods Frameworks */,
+				88263B07EC72127D9DE8ACDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				59EF436A1EF1CA7A00B633C8 /* LaunchScreen.storyboard in Resources */,
+				59EF43961EF1D3B400B633C8 /* kiss_me_image.jpg in Resources */,
 				59EF43671EF1CA7A00B633C8 /* Assets.xcassets in Resources */,
 				59EF43651EF1CA7A00B633C8 /* Main.storyboard in Resources */,
+				59EB1F9E1EF23CD90093AC59 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +323,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		036AAFF3F76CB5FB9F877BB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KpopSuggestion/Pods-KpopSuggestion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B31F42ED8AB25098D224E8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		874F3795BB772F156A828AC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KpopSuggestionTests/Pods-KpopSuggestionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C9160C54F5E306A0B325ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KpopSuggestionUITests/Pods-KpopSuggestionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88263B07EC72127D9DE8ACDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KpopSuggestionUITests/Pods-KpopSuggestionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A20C942B274406C01312FF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KpopSuggestionTests/Pods-KpopSuggestionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A234CDB34C9B3FC5F660BAA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D68BD46DC8403D8F09D4AB0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CE309A0416C3C73109CCE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KpopSuggestion/Pods-KpopSuggestion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59EF43581EF1CA7A00B633C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59EF43941EF1D1BB00B633C8 /* SongTableCell.swift in Sources */,
+				59EF43901EF1CEC000B633C8 /* Song.swift in Sources */,
+				59EF438E1EF1CE1E00B633C8 /* Song TableviewController.swift in Sources */,
 				59EF43621EF1CA7A00B633C8 /* ViewController.swift in Sources */,
+				59EB1FA01EF23EC00093AC59 /* AddSongController.swift in Sources */,
 				59EF43601EF1CA7A00B633C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +623,7 @@
 		};
 		59EF43851EF1CA7A00B633C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9A9EBDE57BD93499C94DBF /* Pods-KpopSuggestion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KpopSuggestion/Info.plist;
@@ -424,6 +636,7 @@
 		};
 		59EF43861EF1CA7A00B633C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E280756F6FD649257A2D151B /* Pods-KpopSuggestion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KpopSuggestion/Info.plist;
@@ -436,6 +649,7 @@
 		};
 		59EF43881EF1CA7A00B633C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85A88F1C94CAE6FCE8F76B8 /* Pods-KpopSuggestionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +664,7 @@
 		};
 		59EF43891EF1CA7A00B633C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3726A9CC655DDFBD73F6F088 /* Pods-KpopSuggestionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +679,7 @@
 		};
 		59EF438B1EF1CA7A00B633C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4497783C07F42B50964F1A5 /* Pods-KpopSuggestionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = KpopSuggestionUITests/Info.plist;
@@ -477,6 +693,7 @@
 		};
 		59EF438C1EF1CA7A00B633C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDC856780C070B9AF857FA3 /* Pods-KpopSuggestionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = KpopSuggestionUITests/Info.plist;
@@ -507,6 +724,7 @@
 				59EF43861EF1CA7A00B633C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59EF43871EF1CA7A00B633C8 /* Build configuration list for PBXNativeTarget "KpopSuggestionTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +733,7 @@
 				59EF43891EF1CA7A00B633C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59EF438A1EF1CA7A00B633C8 /* Build configuration list for PBXNativeTarget "KpopSuggestionUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +742,7 @@
 				59EF438C1EF1CA7A00B633C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
