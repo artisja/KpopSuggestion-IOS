@@ -13,9 +13,9 @@ class Song {
     var songName: String
     var albumName: String
     var artistName: String
-    var albumImage: UIImage
+    var albumImage: String
     
-    init(song: String,album: String,artist: String,image: UIImage) {
+    init(song: String,album: String,artist: String,image: String) {
         self.songName = song
         self.albumName = album
         self.artistName = artist

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		08905BF5AE9C297F3422B975 /* Pods_KpopSuggestion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086503961D1EE9080DBDFC87 /* Pods_KpopSuggestion.framework */; };
 		5683D09FF704A5B7E740F39F /* Pods_KpopSuggestionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750A75C46A045BE3CB4E65F1 /* Pods_KpopSuggestionUITests.framework */; };
-		59EB1F9E1EF23CD90093AC59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59EB1F9D1EF23CD90093AC59 /* GoogleService-Info.plist */; };
+		59362BC71F1A6D4800C26A4F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59362BC61F1A6D4800C26A4F /* GoogleService-Info.plist */; };
 		59EB1FA01EF23EC00093AC59 /* AddSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EB1F9F1EF23EC00093AC59 /* AddSongController.swift */; };
 		59EF43601EF1CA7A00B633C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF435F1EF1CA7A00B633C8 /* AppDelegate.swift */; };
 		59EF43621EF1CA7A00B633C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF43611EF1CA7A00B633C8 /* ViewController.swift */; };
@@ -46,7 +46,7 @@
 		086503961D1EE9080DBDFC87 /* Pods_KpopSuggestion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KpopSuggestion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3726A9CC655DDFBD73F6F088 /* Pods-KpopSuggestionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopSuggestionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KpopSuggestionTests/Pods-KpopSuggestionTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C9A9EBDE57BD93499C94DBF /* Pods-KpopSuggestion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopSuggestion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KpopSuggestion/Pods-KpopSuggestion.debug.xcconfig"; sourceTree = "<group>"; };
-		59EB1F9D1EF23CD90093AC59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59362BC61F1A6D4800C26A4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		59EB1F9F1EF23EC00093AC59 /* AddSongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSongController.swift; sourceTree = "<group>"; };
 		59EF435C1EF1CA7A00B633C8 /* KpopSuggestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KpopSuggestion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EF435F1EF1CA7A00B633C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 				59EF436B1EF1CA7A00B633C8 /* Info.plist */,
 				59EF438D1EF1CE1E00B633C8 /* Song TableviewController.swift */,
 				59EF438F1EF1CEC000B633C8 /* Song.swift */,
-				59EB1F9D1EF23CD90093AC59 /* GoogleService-Info.plist */,
+				59362BC61F1A6D4800C26A4F /* GoogleService-Info.plist */,
 				59EF43931EF1D1BB00B633C8 /* SongTableCell.swift */,
 				59EB1F9F1EF23EC00093AC59 /* AddSongController.swift */,
 			);
@@ -301,9 +301,9 @@
 			files = (
 				59EF436A1EF1CA7A00B633C8 /* LaunchScreen.storyboard in Resources */,
 				59EF43961EF1D3B400B633C8 /* kiss_me_image.jpg in Resources */,
+				59362BC71F1A6D4800C26A4F /* GoogleService-Info.plist in Resources */,
 				59EF43671EF1CA7A00B633C8 /* Assets.xcassets in Resources */,
 				59EF43651EF1CA7A00B633C8 /* Main.storyboard in Resources */,
-				59EB1F9E1EF23CD90093AC59 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -39,34 +39,34 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KKf-cJ-xIR">
+                                            <rect key="frame" x="219" y="8" width="148" height="80"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cAZ-gO-Klq">
-                                            <rect key="frame" x="31" y="8" width="93.5" height="79.5"/>
+                                            <rect key="frame" x="27" y="20" width="66" height="57"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7g-jU-uf5">
-                                                    <rect key="frame" x="0.0" y="0.0" width="93.5" height="26.5"/>
-                                                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="66" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="12"/>
                                                     <color key="textColor" red="0.71390473832292956" green="0.22265644127399664" blue="0.74044689119170992" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Song Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYK-qX-QZ2">
-                                                    <rect key="frame" x="0.0" y="26.5" width="93.5" height="26.5"/>
-                                                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                                    <rect key="frame" x="0.0" y="19" width="66" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="12"/>
                                                     <color key="textColor" red="0.71390473830000001" green="0.22265644130000001" blue="0.74044689119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Album Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEH-qt-kiK">
-                                                    <rect key="frame" x="0.0" y="53" width="93.5" height="26.5"/>
-                                                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                                    <rect key="frame" x="0.0" y="38" width="66" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="12"/>
                                                     <color key="textColor" red="0.71390473830000001" green="0.22265644130000001" blue="0.74044689119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </stackView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KKf-cJ-xIR">
-                                            <rect key="frame" x="219" y="8" width="148" height="80"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" red="0.24286216998385629" green="0.096042765241442563" blue="0.53898154145077726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </tableViewCellContentView>
@@ -189,12 +189,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMw-Db-xqZ">
+                                <rect key="frame" x="67" y="617" width="258" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71390473830000001" green="0.22265644130000001" blue="0.74044689119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.24286216999999999" green="0.096042765239999994" blue="0.53898154149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitSong:" destination="1Am-hC-lwf" eventType="touchUpInside" id="a96-1O-vnM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24286216999999999" green="0.096042765239999994" blue="0.53898154149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="albumTextField" destination="fRb-Yx-iBt" id="gaz-E5-0kP"/>
+                        <outlet property="artistTextField" destination="EHa-qK-Tdc" id="fea-NS-umu"/>
                         <outlet property="inputedImage" destination="DRg-zK-aDm" id="rSm-lj-6cO"/>
                         <outlet property="selectorButton" destination="vEg-Jp-Bnc" id="ElX-Ox-1g6"/>
+                        <outlet property="songTextField" destination="8B6-oM-TD9" id="x23-Lr-CWq"/>
+                        <outlet property="submitSongButton" destination="OMw-Db-xqZ" id="HOK-8G-TaT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y1S-9T-Rqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
