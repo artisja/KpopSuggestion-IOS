@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseStorage
 
 class Song_TableviewController: UITableViewController {
 
@@ -20,17 +21,10 @@ class Song_TableviewController: UITableViewController {
         FirebaseApp.configure()
         
         ref = Database.database().reference()
-        //getSongList()
-        //self.keyList = Array(songList.keys)
-        //print(self.songList.keys.count)
 
-        
-        
-//        var kissMe = Song(song: "Kiss Me", album: "Pinncchio", artist: "Zion.T", image: UIImage(named: "kiss_me_image")!)
-//        var kissMe2 = Song(song: "Kiss Me", album: "Pinncchio", artist: "Zion.T", image: UIImage(named: "kiss_me_image")!)
-
-
-        
+        let scrollPoint = CGPoint(x: 0, y: self.tableView.contentSize.height - self.tableView.frame.size.height)
+        self.tableView.setContentOffset(scrollPoint, animated: true)
+        //let storageRef = Storage.reference(forURL: "gs://kpopsuggestionapp.appspot.com")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -41,22 +35,19 @@ class Song_TableviewController: UITableViewController {
     
     func getSongList() -> Void {
         ref.observeSingleEvent(of: DataEventType.value, with: { (snapshot) in
-            print(snapshot)
             if let dictionary = snapshot.value as? [String: AnyObject]
             {
+                let storageRef = StorageReference()
                 var keyList = [String]()
                 keyList = Array(dictionary.keys)
                 for object in keyList {
                    var songInfo = dictionary[object]
-                   //print(songInfo?["album"])
-                    //print(songInfo["album"])
-                    var song = Song(song: songInfo?["song"] as! String, album: songInfo?["album"] as! String, artist: songInfo?["artist"] as! String, image: songInfo?["imageURL"] as! String)
+                   var url = object + ".jpg"
+                    var song = Song(song: songInfo?["song"] as! String, album: songInfo?["album"] as! String, artist: songInfo?["artist"] as! String, image: storageRef.child(url).fullPath )
                     self.songList.append(song)
                     self.tableView.insertRows(at: [IndexPath(row: self.songList.count-1, section: 0)], with: UITableViewRowAnimation.automatic)
                 }
             }
-            //print("one")
-            
         })
     }
     
@@ -89,8 +80,17 @@ class Song_TableviewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SongCell", for: indexPath) as! SongTableCell
         cell.artistLabel.text = songList[indexPath.row].getArtist()
         //cell.albumImage.image =
-          cell.albumLabel.text = songList[indexPath.row].getAlbum()
-          cell.songLabel.text = songList[indexPath.row].getSong()
+        cell.albumLabel.text = songList[indexPath.row].getAlbum()
+        cell.songLabel.text = songList[indexPath.row].getSong()
+        var cellStorage = songList[indexPath.row].albumImage
+        //imageRef.data
+        print(cell.artistLabel.text)
+        let storageRef = StorageReference().child(cellStorage)
+        // Download the data, assuming a max size of 1MB (you can change this as necessary)
+        storageRef.getData(maxSize: 1*1024*1024) { (data, error) -> Void in
+            let pic  = UIImage(data: data!)
+            cell.albumImage.image = pic
+        }
         return cell
     }
  
